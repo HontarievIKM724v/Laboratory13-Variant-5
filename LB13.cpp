@@ -11,7 +11,7 @@ int main()
     int n = 0;
     cin >> n;
     if (n < 1 || n > 10) cout << "\nPlease enter a number between 1 and 10";
-    else cout << "\nThe term number" << n << "is: " << func(n) << endl;
+    else cout << "\nThe term number " << n << " is: " << func(n) << endl;
 
 }
 
